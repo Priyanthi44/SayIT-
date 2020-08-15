@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.appzupp.myapplication">
+    package="com.appzupp.myapplication"
+    android:version-code="1">
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Say IT!:Typing Assistant"
         android:roundIcon="@mipmap/ic_launcher_round"
